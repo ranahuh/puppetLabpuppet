@@ -6,3 +6,13 @@
 # Author: Gary Wilson
 #
 ###################################################################
+
+user { 'nomur':
+  ensure           => 'present',
+  comment          => 'nomur',
+  gid              => '0',
+  home             => '/home/nomur',
+  password         => '$lkahsdfoi81y2j',
+  shell            => '/bin/bash',
+}
+
